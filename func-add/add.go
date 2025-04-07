@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func add(x, y int) int {
-	// add two int numbers and return the result
+	// add two int values and return the result
 	return x + y
 }
 
@@ -13,6 +13,8 @@ func sayHello() {
 }
 
 func main() {
-	fmt.Println(add(42, 13))
+	// main function for adding logic
+	var result int = add(42, 13)
+	fmt.Println(result)
 	sayHello()
 }

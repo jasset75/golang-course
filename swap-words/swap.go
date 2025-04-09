@@ -22,5 +22,4 @@ func main() {
 	strA, strB = swap(strA, strB)
 
 	fmt.Printf("Str A: %s, Str B: %s\n", strA, strB)
-
 }
